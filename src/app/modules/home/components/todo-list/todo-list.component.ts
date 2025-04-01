@@ -4,9 +4,10 @@ import { Component, DoCheck } from '@angular/core';
 import { TaskList } from '../../model/task-list';
 
 @Component({
-  selector: 'app-todo-list',
-  templateUrl: './todo-list.component.html',
-  styleUrls: ['./todo-list.component.scss'],
+    selector: 'app-todo-list',
+    templateUrl: './todo-list.component.html',
+    styleUrls: ['./todo-list.component.scss'],
+    standalone: false
 })
 export class TodoListComponent implements DoCheck {
   
